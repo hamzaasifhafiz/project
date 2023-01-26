@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+}
+nav{
+    background-color: black;
+    line-height: 50px;
+
+}
+ol{
+    text-align: center;
+}
+#main-manu{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+#main-manu > li{
+    color: white;
+    display: inline-block;
+    /* line-height: 50px; */
+    margin-left: 70px;
+}
+
+#main-manu > li:hover{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+.child-manu > li:hover{
+    background-color: rgb(215, 25, 25);
+    color: rgb(24, 185, 175);
+}
+.child-menu2 > li:hover{
+    background-color: rgb(215, 25, 25);
+    color:rgb(24, 185, 175);
+}
+.child-manu{
+     display: none; 
+    list-style-type: none;
+    position:absolute;
+    background-color: black;
+    color: white;
+    padding: 0%;
+    text-align: left;
+}
+.child-manu > li{
+    padding-left: 20px;
+    padding-right:20px;
+}
+#nest-menu-opener:hover .child-manu{
+    display: block;
+}
+#last-menu-opener:hover .child-menu2{
+    display: block;
+}
+.child-menu2{
+    background-color:black; 
+    color:white;
+    display: none;
+    list-style-type: none;
+    position:relative;
+    padding:0px;
+    text-align: left;
+}
+.child-menu2{
+    position: absolute;
+    left: 229px;
+    top: 100px;
+    width: 230px;
+}
+.ham{
+    width: 10px;
+    height: 10px;
+    padding-left: 54%;
+}
+
+
+
+
